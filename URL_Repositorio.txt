@@ -4,10 +4,10 @@ PORTAFOLIO WEB PROFESIONAL - CHRIS HUANG
 Información para validación del docente:
 
 URL DEL PORTAFOLIO WEB:
-https://chrishuang060.github.io/portfolio/
+https://chrishuanggg.github.io/
 
 REPOSITORIO GITHUB:
-https://github.com/chrishuang060/portfolio
+https://github.com/chrishuanggg/chrishuanggg.github.io
 
 ESTRUCTURA DEL REPOSITORIO:
 /proyecto
