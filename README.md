@@ -4,7 +4,7 @@
 
 ## 📋 Descripción del Proyecto
 
-Portafolio web profesional responsive e interactivo desarrollado con HTML5, CSS3, JavaScript vanilla y Bootstrap 5. Diseñado con una paleta de colores moderna (60-30-10) y enfocado en UX/UI excepcional.
+Portafolio web profesional responsive e interactivo desarrollado con HTML5, CSS3, JavaScript vanilla y Bootstrap 5. Portafolio de Ingeniero de Software Full Stack con experiencia en desarrollo de soluciones escalables. Diseñado con una paleta de colores moderna (60-30-10) y enfocado en UX/UI excepcional.
 
 ## ✨ Características Principales
 
