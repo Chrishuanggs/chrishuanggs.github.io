@@ -1,0 +1,79 @@
+PORTAFOLIO WEB PROFESIONAL - CHRIS HUANG
+=========================================
+
+Información para validación del docente:
+
+URL DEL PORTAFOLIO WEB:
+https://chrishuang060.github.io/portfolio/
+
+REPOSITORIO GITHUB:
+https://github.com/chrishuang060/portfolio
+
+ESTRUCTURA DEL REPOSITORIO:
+/proyecto
+  ├── index.html
+  ├── style.css
+  ├── script.js
+  ├── logo.svg
+  ├── favicon.svg
+  ├── CV_Chris_Huang_ESP.pdf
+  ├── CV_Chris_Huang_EN.pdf
+  ├── profile.jpg
+  ├── project1.jpg
+  ├── project2.jpg
+  ├── project3.jpg
+  └── README.md
+
+CARACTERÍSTICAS IMPLEMENTADAS:
+✅ Portafolio web responsivo e innovador
+✅ Desarrollo desde cero (HTML5, CSS3, JavaScript, Bootstrap5)
+✅ 5 secciones web de contenido sin encabezado y pie de página
+✅ Favicon de imagen web
+✅ Portafolio laboral/freelance (NO mixto)
+✅ Link remoto obligatorio (GitHub Pages)
+✅ Imagen web freelance creada durante el curso
+✅ Galería interactiva de trabajos
+✅ Transiciones y animaciones sutiles
+✅ Formulario de contacto programado en JavaScript
+✅ Chat WhatsApp integrado
+✅ Botón Scrolltop funcional
+✅ Botón descarga currículo digital PDF
+✅ Conversión de idioma español-inglés
+✅ Paleta de colores regla 60-30-10
+✅ Responsividad y velocidad optimizada
+
+PALETA DE COLORES (60-30-10):
+• 60% - Gris Oscuro (#2d2d2d) - Fondos principales
+• 30% - Morado (#6c5ce7) - Encabezados y elementos interactivos
+• 10% - Rosa (#fd79a8) - CTAs y acentos importantes
+
+TIPOGRAFÍAS:
+• Poppins: Títulos y encabezados
+• Roboto: Párrafos y contenido
+• Space Mono: Código y detalles técnicos
+
+TECNOLOGÍAS UTILIZADAS:
+• HTML5 - Estructura semántica
+• CSS3 - Diseño responsivo con Grid y Flexbox
+• JavaScript ES6+ - Funcionalidad e interactividad
+• Bootstrap 5 - Framework CSS responsivo
+• SVG - Ilustraciones vectoriales
+• Font Awesome - Iconografía
+
+CONTACTO:
+• Email: chrishuang060@gmail.com
+• WhatsApp: +506 8450-3791
+• GitHub: https://github.com/chrishuang060
+• LinkedIn: https://linkedin.com/in/chris-huang
+
+NOTA IMPORTANTE:
+El portafolio ha sido desarrollado completamente desde cero, sin uso de plantillas.
+Cumple con todos los requisitos solicitados en la rúbrica de evaluación.
+El código está comentado y organizado para facilitar la revisión.
+
+Fecha de entrega: Noviembre 2025
+Proyecto: Portafolio Web (30 puntos)
+
+=========================================
+Building the future, one line at a time
+=========================================
