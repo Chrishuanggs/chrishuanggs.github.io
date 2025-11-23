@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c5ce7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fd79a8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#2d2d2d" stroke="url(#grad1)" stroke-width="3"/>
+  
+  <!-- Hexagon outline -->
+  <path d="M100,20 L165,55 L165,125 L100,160 L35,125 L35,55 Z" 
+        fill="none" 
+        stroke="url(#grad1)" 
+        stroke-width="2" 
+        opacity="0.4"/>
+  
+  <!-- Letter C -->
+  <path d="M 75,60 
+           C 60,60 55,65 55,80
+           L 55,120
+           C 55,135 60,140 75,140
+           L 85,140
+           L 85,125
+           L 75,125
+           C 72,125 70,123 70,120
+           L 70,80
+           C 70,77 72,75 75,75
+           L 85,75
+           L 85,60
+           Z" 
+        fill="#ffffff"/>
+  
+  <!-- Letter H - Left vertical -->
+  <rect x="105" y="60" width="15" height="80" fill="#ffffff"/>
+  
+  <!-- Letter H - Horizontal bar -->
+  <rect x="105" y="95" width="40" height="12" fill="url(#grad1)"/>
+  
+  <!-- Letter H - Right vertical -->
+  <rect x="130" y="60" width="15" height="80" fill="#ffffff"/>
+</svg>
