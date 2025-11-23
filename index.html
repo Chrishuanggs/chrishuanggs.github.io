@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chris Huang - Ingeniero de Software Full Stack. Building the future, one line at a time.">
+    <meta name="keywords" content="Chris Huang, Ingeniero de Software, Full Stack Developer, Web Development, Costa Rica">
+    <meta name="author" content="Chris Huang">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Chris Huang - Software Engineer">
+    <meta property="og:description" content="Building the future, one line at a time">
+    <meta property="og:type" content="website">
+    
+    <title>Chris Huang | Software Engineer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Space+Mono:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle" id="languageToggle">
+        <button class="lang-btn active" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">
+                <img src="logo.svg" alt="CH Logo" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero" data-es="Inicio" data-en="Home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-es="Sobre Mí" data-en="About">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" data-es="Habilidades" data-en="Skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-es="Proyectos" data-en="Projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-es="Contacto" data-en="Contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 hero-content">
+                    <div class="hero-tag" data-es="👋 Hola, soy" data-en="👋 Hi, I'm">👋 Hola, soy</div>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Chris Huang</span>
+                    </h1>
+                    <h2 class="hero-subtitle" data-es="Ingeniero de Software Full Stack" data-en="Full Stack Software Engineer">
+                        Ingeniero de Software Full Stack
+                    </h2>
+                    <p class="hero-description" data-es="Ingeniero de Software con experiencia en desarrollo Full Stack, arquitectura de software y liderazgo técnico. Especializado en crear soluciones escalables que generan impacto real en los negocios." data-en="Software Engineer with experience in Full Stack development, software architecture and technical leadership. Specialized in creating scalable solutions that generate real business impact.">
+                        Ingeniero de Software con experiencia en desarrollo Full Stack, arquitectura de software y liderazgo técnico. Especializado en crear soluciones escalables que generan impacto real en los negocios.
+                    </p>
+                    
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary btn-glow" data-es="Ver Proyectos" data-en="View Projects">
+                            <span>Ver Proyectos</span>
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                        <button id="downloadCV" class="btn btn-outline-light" data-es="Descargar CV" data-en="Download CV">
+                            <i class="fas fa-download me-2"></i>
+                            <span>Descargar CV</span>
+                        </button>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/chrishuanggs" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/chris-huang-663330253/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="/cdn-cgi/l/email-protection#583b302a312b302d39363f686e68183f35393134763b3735" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="code-window">
+                            <div class="window-header">
+                                <div class="window-buttons">
+                                    <span class="btn-close-window"></span>
+                                    <span class="btn-minimize"></span>
+                                    <span class="btn-maximize"></span>
+                                </div>
+                                <div class="window-title">main.cpp</div>
+                            </div>
+                            <div class="code-content">
+                                <pre><code><span class="code-comment">// Building innovative solutions</span>
+<span class="code-keyword">class</span> <span class="code-class">SoftwareEngineer</span> {
+<span class="code-keyword">public</span>:
+    <span class="code-function">SoftwareEngineer</span>() {
+        name = <span class="code-string">"Chris Huang"</span>;
+        skills = {<span class="code-string">"C#"</span>, <span class="code-string">"C++"</span>, <span class="code-string">"Java"</span>,
+                  <span class="code-string">"React"</span>, <span class="code-string">"Node.js"</span>};
+        passion = <span class="code-string">"Creating the future"</span>;
+    }
+    
+    <span class="code-keyword">void</span> <span class="code-function">code</span>() {
+        <span class="code-keyword">while</span>(<span class="code-keyword">true</span>) {
+            learn();
+            build();
+            innovate();
+        }
+    }
+};</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" data-es="Conoce más" data-en="Get to know">Conoce más</span>
+                <h2 class="section-title" data-es="Sobre Mí" data-en="About Me">Sobre Mí</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-bg"></div>
+                        <img src="profile.svg" alt="Chris Huang" class="about-image">
+                        <div class="about-shape"></div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3 class="about-title" data-es="Ingeniero de Software apasionado por la innovación" data-en="Software Engineer passionate about innovation">
+                            Ingeniero de Software apasionado por la innovación
+                        </h3>
+                        <p class="about-text" data-es="Ingeniero de Software graduado de Universidad CENFOTEC, especializado en desarrollo Full Stack y creación de soluciones tecnológicas innovadoras y escalables. Mi filosofía es simple: cada línea de código debe contribuir a construir el futuro." data-en="Software Engineer graduated from CENFOTEC University, specialized in Full Stack development and creating innovative and scalable technological solutions. My philosophy is simple: every line of code should contribute to building the future.">
+                            Ingeniero de Software graduado de Universidad CENFOTEC, especializado en desarrollo Full Stack y creación de soluciones tecnológicas innovadoras y escalables. Mi filosofía es simple: cada línea de código debe contribuir a construir el futuro.
+                        </p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">5+</div>
+                                <div class="stat-label" data-es="Años de Experiencia" data-en="Years Experience">Años de Experiencia</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">25+</div>
+                                <div class="stat-label" data-es="Proyectos Completados" data-en="Projects Completed">Proyectos Completados</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">98%</div>
+                                <div class="stat-label" data-es="Satisfacción Cliente" data-en="Client Satisfaction">Satisfacción Cliente</div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-values">
+                            <h4 class="values-title" data-es="Mis Valores" data-en="My Values">Mis Valores</h4>
+                            <div class="values-list">
+                                <div class="value-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span data-es="Excelencia Técnica" data-en="Technical Excellence">Excelencia Técnica</span>
+                                </div>
+                                <div class="value-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span data-es="Innovación Constante" data-en="Constant Innovation">Innovación Constante</span>
+                                </div>
+                                <div class="value-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span data-es="Aprendizaje Continuo" data-en="Continuous Learning">Aprendizaje Continuo</span>
+                                </div>
+                                <div class="value-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span data-es="Código Limpio" data-en="Clean Code">Código Limpio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" data-es="Mi arsenal tecnológico" data-en="My tech stack">Mi arsenal tecnológico</span>
+                <h2 class="section-title" data-es="Habilidades & Tecnologías" data-en="Skills & Technologies">Habilidades & Tecnologías</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="category-title" data-es="Frontend" data-en="Frontend">Frontend</h3>
+                        <div class="tech-stack">
+                            <span class="tech-badge">HTML5</span>
+                            <span class="tech-badge">CSS3</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="category-title" data-es="Backend & DB" data-en="Backend & DB">Backend & DB</h3>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">C#</span>
+                            <span class="tech-badge">Java</span>
+                            <span class="tech-badge">C++</span>
+                            <span class="tech-badge">SQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3 class="category-title" data-es="Game Dev" data-en="Game Dev">Game Dev</h3>
+                        <div class="tech-stack">
+                            <span class="tech-badge">GODOT</span>
+                            <span class="tech-badge">GDScript</span>
+                            <span class="tech-badge">Game Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="skill-category">
+                        <div class="category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="category-title" data-es="DevOps" data-en="DevOps">DevOps</h3>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Git</span>
+                            <span class="tech-badge">GitHub</span>
+                            <span class="tech-badge">Vercel</span>
+                            <span class="tech-badge">Azure</span>
+                            <span class="tech-badge">SCRUM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" data-es="Mi trabajo" data-en="My work">Mi trabajo</span>
+                <h2 class="section-title" data-es="Proyectos Destacados" data-en="Featured Projects">Proyectos Destacados</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="BilleTico" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22%3E%3Crect fill=%22%236c5ce7%22 width=%22600%22 height=%22400%22/%3E%3Ctext fill=%22%23fff%22 font-family=%22Poppins%22 font-size=%2236%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EBilleTico%3C/text%3E%3C/svg%3E'">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">BilleTico - Billetera Virtual</h3>
+                        <p class="project-description" data-es="Aplicación web financiera completa con gestión de transacciones, seguridad robusta y interfaz intuitiva." data-en="Complete financial web application with transaction management, robust security and intuitive interface.">
+                            Aplicación web financiera completa con gestión de transacciones, seguridad robusta y interfaz intuitiva.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Tower Defense" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22%3E%3Crect fill=%22%23fd79a8%22 width=%22600%22 height=%22400%22/%3E%3Ctext fill=%22%23fff%22 font-family=%22Poppins%22 font-size=%2236%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3ETower Defense%3C/text%3E%3C/svg%3E'">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Tower Defense Game</h3>
+                        <p class="project-description" data-es="Videojuego desarrollado en GODOT Engine con mecánicas estratégicas y diseño visual atractivo." data-en="Video game developed in GODOT Engine with strategic mechanics and attractive visual design.">
+                            Videojuego desarrollado en GODOT Engine con mecánicas estratégicas y diseño visual atractivo.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">GODOT</span>
+                            <span class="tech-tag">GDScript</span>
+                            <span class="tech-tag">Game Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="Portfolio Web" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22%3E%3Crect fill=%22%232d2d2d%22 width=%22600%22 height=%22400%22/%3E%3Ctext fill=%22%236c5ce7%22 font-family=%22Poppins%22 font-size=%2236%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22%3EPortfolio Web%3C/text%3E%3C/svg%3E'">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sitios Web Personalizados</h3>
+                        <p class="project-description" data-es="Diseño y desarrollo de sitios web profesionales con tecnologías modernas y diseño responsivo." data-en="Design and development of professional websites with modern technologies and responsive design.">
+                            Diseño y desarrollo de sitios web profesionales con tecnologías modernas y diseño responsivo.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag" data-es="Hablemos" data-en="Let's talk">Hablemos</span>
+                <h2 class="section-title" data-es="Contacto" data-en="Contact">Contacto</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="contact-info">
+                        <h3 class="contact-info-title" data-es="Información de Contacto" data-en="Contact Information">Información de Contacto</h3>
+                        <p class="contact-info-text" data-es="¿Tienes un proyecto en mente? ¡Contáctame! Estoy disponible para colaboraciones y oportunidades freelance." data-en="Do you have a project in mind? Contact me! I'm available for collaborations and freelance opportunities.">
+                            ¿Tienes un proyecto en mente? ¡Contáctame! Estoy disponible para colaboraciones y oportunidades freelance.
+                        </p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <a href="/cdn-cgi/l/email-protection#f99a918b908a918c98979ec9cfc9b99e94989095d79a9694"><span class="__cf_email__" data-cfemail="7f1c170d160c170a1e11184f494f3f18121e1613511c1012">[email&#160;protected]</span></a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>WhatsApp</h4>
+                                    <a href="https://wa.me/50684503791" target="_blank">+506 8450-3791</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>Heredia, Costa Rica</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <a href="https://github.com/chrishuanggs" target="_blank" rel="noopener" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/chris-huang-663330253/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="/cdn-cgi/l/email-protection#adcec5dfc4dec5d8ccc3ca9d9b9dedcac0ccc4c183cec2c0" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group">
+                                    <label for="name" data-es="Nombre" data-en="Name">Nombre</label>
+                                    <input type="text" id="name" name="name" class="form-control" required data-es-placeholder="Tu nombre" data-en-placeholder="Your name">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control" required data-es-placeholder="tu@email.com" data-en-placeholder="your@email.com">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label for="subject" data-es="Asunto" data-en="Subject">Asunto</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required data-es-placeholder="¿De qué quieres hablar?" data-en-placeholder="What do you want to talk about?">
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label for="message" data-es="Mensaje" data-en="Message">Mensaje</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required data-es-placeholder="Cuéntame sobre tu proyecto..." data-en-placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-glow w-100" data-es="Enviar Mensaje" data-en="Send Message">
+                            <span>Enviar Mensaje</span>
+                            <i class="fas fa-paper-plane ms-2"></i>
+                        </button>
+                    </form>
+                    
+                    <div id="formMessage" class="form-message" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/50684503791" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.svg" alt="CH Logo">
+                    <p class="footer-slogan">Building the future, one line at a time</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 data-es="Navegación" data-en="Navigation">Navegación</h4>
+                        <ul>
+                            <li><a href="#hero" data-es="Inicio" data-en="Home">Inicio</a></li>
+                            <li><a href="#about" data-es="Sobre Mí" data-en="About">Sobre Mí</a></li>
+                            <li><a href="#skills" data-es="Habilidades" data-en="Skills">Habilidades</a></li>
+                            <li><a href="#projects" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 data-es="Contacto" data-en="Contact">Contacto</h4>
+                        <ul>
+                            <li><a href="/cdn-cgi/l/email-protection#a3c0cbd1cad0cbd6c2cdc4939593e3c4cec2cacf8dc0ccce">Email</a></li>
+                            <li><a href="https://wa.me/50684503791" target="_blank">WhatsApp</a></li>
+                            <li><a href="https://github.com/chrishuanggs" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/chris-huang-663330253/" target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chris Huang. <span data-es="Todos los derechos reservados" data-en="All rights reserved">Todos los derechos reservados<
